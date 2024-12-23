@@ -19,11 +19,6 @@ function recursivePaths(path: string) {
 recursivePaths("")
 await zipWriter.close();
 
-try {
-    Deno.removeSync("build", { "recursive": true })
-} catch (_) { _ }
-Deno.mkdirSync("build")
-
 const bytes = await (await zipFileWriter.getData()).bytes()
 
 Deno.serve(((req) => {
