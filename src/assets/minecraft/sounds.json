@@ -1,0 +1,8 @@
+{
+    "entity.player.death": {
+        "sounds": [
+            "entity/player/death"
+        ], 
+        "replace": "true"
+    }
+}
