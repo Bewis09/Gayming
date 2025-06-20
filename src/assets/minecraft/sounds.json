@@ -2,7 +2,15 @@
     "entity.player.death": {
         "sounds": [
             "entity/player/death"
-        ], 
+        ],
         "replace": "true"
+    },
+    "church": {
+        "sounds": [
+            {
+                "name": "custom/church",
+                "weight": 1
+            }
+        ]
     }
 }
