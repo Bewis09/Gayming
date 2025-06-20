@@ -1,0 +1,10 @@
+{
+    "church": {
+         "sounds":[
+             {
+                 "name": "pack/church",
+                 "weight": 1
+             } 
+         ]
+    }
+}
