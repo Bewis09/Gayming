@@ -2,7 +2,7 @@
     "church": {
          "sounds":[
              {
-                 "name": "pack/church",
+                 "name": "custom/church",
                  "weight": 1
              } 
          ]
