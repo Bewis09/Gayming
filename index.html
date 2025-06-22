@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Serverregeln Gayming</title>
+        <script>
+            // Gets replaced by the server with the actual rules in markdown format
+            const rules = `
+rule_server_insert_here
+`;
+        </script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+                scroll-padding-top: 50px;
+            }
+
+            body {
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                line-height: 105%;
+            }
+
+            #rules_container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            h2 {
+                line-height: 110%;
+            }
+
+            :target {
+                background-color: #fff9c4;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rules_container"></div>
+        <script>
+            function insertLinks(string, article) {
+                return string.replace(/[0-9]+[a-z]*[)]/g, (match) => `<a class="link" href="#${match.replace(")", "")}">${match}</a>`).replace(/ [a-z]+[)]/g, (match) => `<a class="link" href="#${article}${match.replace(")", "").replace(" ", "")}">${match}</a>`);
+            }
+
+            function fillStringBefore(string, length, char) {
+                while (string.length < length) {
+                    string = char + string;
+                }
+
+                return string;
+            }
+
+            function loadRules() {
+                const container = document.getElementById("rules_container");
+
+                if (rules.trim() === "rule_server_insert_here") {
+                    container.innerHTML = "<p>Die Regeln wurden noch nicht festgelegt.</p>";
+                } else {
+                    const lines = rules.split("\n");
+
+                    const ruleTree = {};
+
+                    let html = "";
+
+                    let article = 0;
+                    let rule = 0;
+
+                    let ruleHTML = "";
+                    let subruleHTML = "";
+
+                    lines.forEach((line) => {
+                        if (line.startsWith("## ")) {
+                            if (line.startsWith("## §")) {
+                                if (article !== 0) {
+                                    if (subruleHTML !== "") {
+                                        ruleHTML += subruleHTML;
+                                        subruleHTML = "";
+                                    }
+                                    html += `<div style="padding: 1rem;" id="${article}">${ruleHTML}</div>`;
+                                }
+
+                                ruleHTML = `<h2 style="margin-top: 0px"><span style="font-family: monospace;">${line.split(/ /)[1]}</span>&nbsp;${line.split(/## §[0-9]+ /)[1]}</h2>`;
+                                article = line.split(/ /)[1].replace("§", "");
+
+                                ruleTree[article] = {};
+                                ruleTree[article].headline = line.split(/## §[0-9]+ /)[1];
+                                ruleTree[article].rules = {};
+                            } else {
+                                html += `<h2>${line.substring(3)}</h2>`;
+                            }
+                        } else if (line.startsWith("- ")) {
+                            if (subruleHTML !== "") {
+                                ruleHTML += `<div style="" id="${article + rule}">${subruleHTML}</div>`;
+                            }
+
+                            rule = line.charAt(3);
+                            subruleHTML = `<div style="display: flex; padding: 3px;"><div style="font-family: monospace;">(${rule})&nbsp;</div><div>${insertLinks(line.substring(6), article)}</div></div>`;
+
+                            ruleTree[article].rules[rule] = {};
+                            ruleTree[article].rules[rule].headline = line.substring(6);
+                            ruleTree[article].rules[rule].subrules = {};
+                        } else if (line.startsWith("  - ")) {
+                            subrule = line.split("  - ")[1].split(".")[0];
+                            subruleHTML += `<div id="${article + rule + "_" + subrule}" style="display: flex; padding: 3px;"><div style="font-family: monospace;">&nbsp;&nbsp;&nbsp;&nbsp;${fillStringBefore(subrule, 4, " ").replaceAll(" ", "&nbsp;")}.&nbsp;</div><div>${insertLinks(line.split(/  - [i|v|x]+[.] /)[1], article)}</div></div>`;
+
+                            ruleTree[article].rules[rule].subrules[subrule] = line.split(/  - [i|v|x]+[.] /)[1];
+                        } else {
+                            html += `<p>${line}</p>`;
+                        }
+                    });
+
+                    container.innerHTML = html;
+
+                    Array.prototype.forEach.call(document.getElementsByClassName("link"), (element) => {
+                        const ref = element.getAttribute("href").replace("#", "");
+                        const article = ref.match(/[0-9]+/)[0];
+                        const rule = ref.split(/[0-9]+/)[1];
+
+                        element.title = rule === "" ? ruleTree[article].headline : ruleTree[article].rules[rule].headline;
+                    });
+                }
+            }
+
+            loadRules();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "start": "deno run --allow-net --allow-read --allow-write --watch main.ts"
+    },
+    "imports": {
+        "zip": "https://deno.land/x/zipjs@v2.7.54/index.js"
+    },
+    "fmt": {
+        "indentWidth": 4,
+        "lineWidth": 1000
+    }
+}
