@@ -40,7 +40,7 @@ Deno.serve(async (req) => {
         return new Response(bytes);
     }
     if (new URL(req.url).pathname.match(/^\/rules\/?$/)) {
-        if (html === undefined || true) {
+        if (html === undefined) {
             html = Deno.readTextFileSync("index.html").replace("rule_server_insert_here", Deno.readTextFileSync("rules/rules.md"));
         }
 

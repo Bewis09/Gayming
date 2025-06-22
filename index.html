@@ -40,8 +40,15 @@ rule_server_insert_here
     <body>
         <div id="rules_container"></div>
         <script>
+            function markdown(markdownable) {
+                var italic = /\_(\S(.*?\S)?)\_/gm;
+                markdownable = markdownable.replace(italic, '<span style="font-style:italic;">$1</span>');
+
+                return markdownable;
+            }
+
             function insertLinks(string, article) {
-                return string.replace(/[0-9]+[a-z]*[)]/g, (match) => `<a class="link" href="#${match.replace(")", "")}">${match}</a>`).replace(/ [a-z]+[)]/g, (match) => `<a class="link" href="#${article}${match.replace(")", "").replace(" ", "")}">${match}</a>`);
+                return markdown(string).replace(/[0-9]+[a-z]*[)]/g, (match) => `<a class="link" href="#${match.replace(")", "")}">${match}</a>`).replace(/ [a-z][)]/g, (match) => `<a class="link" href="#${article}${match.replace(")", "").replace(" ", "")}">${match}</a>`);
             }
 
             function fillStringBefore(string, length, char) {
