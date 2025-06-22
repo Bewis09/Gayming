@@ -118,6 +118,12 @@ rule_server_insert_here
                         }
                     });
 
+                    if (subruleHTML !== "") {
+                        ruleHTML += subruleHTML;
+                        subruleHTML = "";
+                    }
+                    html += `<div style="padding: 1rem;" id="${article}">${ruleHTML}</div>`;
+
                     container.innerHTML = html;
 
                     Array.prototype.forEach.call(document.getElementsByClassName("link"), (element) => {
