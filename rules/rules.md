@@ -33,7 +33,7 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 - (a) Durch Creeper, TNT oder Ähnliches verursachte Löcher sind wieder mit dem entsprechenden Bodenmaterial aufzufüllen. Dies hat mit dem gesamten Loch, nicht nur mit der obersten Schicht, zu geschehen.
 - (b) Willkürlich platzierte Blöcke sind sofort wieder abzubauen (z. B. nach dem Einbauen oder der Flucht vor Monstern).
 - (c) Bäume dürfen nicht entfernt oder zerstört werden, ohne die ursprüngliche Vegetation in dem Bereich wiederherzustellen.
-- (d) Sehr weit entfernt von jeglicher Bebauung oder Nutzung durch Spielerinnen oder Spieler, auf dem eigenen Grundstück oder bei der Umsetzung gemeinschaftlicher Projekte, gelten die in a) bis c) genannten Vorgaben nicht.
+- (d) Sehr weit entfernt von jeglicher Bebauung oder Nutzung durch Spielerinnen oder Spieler und auf dem eigenen Grundstück, gelten die in a) bis c) genannten Vorgaben nicht.
 
 ## §5 Grundstücke und deren Bebauung
 
