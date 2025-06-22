@@ -99,6 +99,7 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 - (k) Regeländerungen, die nur den Ausdruck, die Rechtschreibung oder die Grammatik betreffen und den Sinn nicht verändern, dürfen ohne Umfrage vorgenommen werden.
 - (l) Die Liste der erlaubten und verbotenen Modifikationen darf unter Abstimmung mit allen Admins ohne Umfrage erweitert werden.
 - (m) Die Serverlogs und -statistiken dürfen von den Admins eingesehen werden, um Regelverstöße zu überprüfen und die Einhaltung des Regelwerks zu gewährleisten. Diese Daten dürfen nicht für andere Zwecke verwendet werden.
+- (n) Auf Nachfrage müssen die Admins ihr Handeln als Admin begründen und transparent darlegen, warum sie welche Entscheidung getroffen haben. Vorbereitungen für Events, welche Adminarbeit beinhalten, müssen nicht im Detail offengelegt werden, solange sie nicht gegen das Regelwerk verstoßen.
 
 ## §10 Weiteres
 
