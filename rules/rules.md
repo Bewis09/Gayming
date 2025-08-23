@@ -94,7 +94,7 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 - (f) Artikel 1) und 9d) sind durch Änderungen unantastbar. Zur Änderung von in Artikel 9) niedergeschriebenen Regelungen werden zwei Drittel der Personen benötigt.
 - (g) Den Anweisungen der Admins ist Folge zu leisten, und bei Problemen mit jenen ist der Dialog zu suchen.
 - (h) Wenn ein Spieler/eine Spielerin dem Server beitritt, muss er/sie das Regelwerk in der aktuellen Fassung gründlich gelesen und diesem zugestimmt haben. Ist dies nicht passiert, wird ihm/ihr der Zutritt zu dem Server verwehrt.
-- (i) Für Abstimmungen relevant sind alle Spielerinnen und Spieler, die den Server in den letzten 28 Tagen vor Beginn der Abstimmung betreten haben und nicht während des gesamten Zeitraums der Abstimmung vom Server gebannt sind.
+- (i) Für Abstimmungen relevant sind alle Spielerinnen und Spieler, die den Server in den letzten 90 Tagen vor Beginn der Abstimmung betreten haben und nicht während des gesamten Zeitraums der Abstimmung vom Server gebannt sind.
 - (j) Während einer laufenden Umfrage dürfen die vorgeschlagenen Regeländerungen nicht verändert werden.
 - (k) Regeländerungen, die nur den Ausdruck, die Rechtschreibung oder die Grammatik betreffen und den Sinn nicht verändern, dürfen ohne Umfrage vorgenommen werden.
 - (l) Die Liste der erlaubten und verbotenen Modifikationen darf unter Abstimmung mit allen Admins ohne Umfrage erweitert werden.
