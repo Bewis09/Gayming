@@ -104,3 +104,4 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 ## §10 Weiteres
 
 - (a) Selbstjustiz, die nicht in den Rahmen von Artikel 7) fällt und nicht mit der betreffenden Person zur Kompromissbildung abgesprochen ist, ist untersagt.
+- (b) Es sollte nach Möglichkeit versucht werden, Probleme erst untereinander und in-game zu klären, bevor Admins einschreiten.
