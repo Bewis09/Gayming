@@ -82,7 +82,7 @@ rule_server_insert_here
                             if (line.startsWith("## §")) {
                                 if (article !== 0) {
                                     if (subruleHTML !== "") {
-                                        ruleHTML += subruleHTML;
+                                        ruleHTML += `<div style="" id="${article + rule}">${subruleHTML}</div>`;
                                         subruleHTML = "";
                                     }
                                     html += `<div style="padding: 1rem;" id="${article}">${ruleHTML}</div>`;
