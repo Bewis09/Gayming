@@ -19,6 +19,7 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 - (h) Provokationen und unnötige Konflikte sollten unterlassen werden.
 - (i) Toxisches Verhalten oder solches, das das Miteinander während des Spiels negativ beeinflusst, ist zu vermeiden.
 - (j) Unnötiges Töten von Mitspielerinnen und Mitspielern ist verboten.
+- (k) Es ist verboten sich als jemand anderes auszugeben und in deren Namen ohne die Zustimmung dieser Person zu handeln, außer es handelt sich um Roleplay in einem akzeptablen Ausmaß.
 
 ## §3 Umgang mit Bauwerken und Kreationen von Mitspielerinnen und Mitspielern
 
@@ -37,9 +38,9 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 
 ## §5 Grundstücke und deren Bebauung
 
-- (a) Bevor man etwas baut, ist das Gebiet im Discord-Kanal „wir-claimen-stuff“ mitzuteilen. Dies sollte folgende Informationen beinhalten: Gamertag(s), Koordinaten, Bauwerk und Baustil/Farm.
+- (a) Bevor man etwas baut, ist das im Discord anzukündigen und auch mit direkten Nachbarn abzusprechen. Dies sollte folgende Informationen beinhalten: Gamertag(s), Koordinaten, Bauwerk und Baustil/Farm.
 - (b) Falls eine andere Person ein sinnvoll begründetes Problem damit haben sollte, ist ein Kompromiss zu finden, mit dem alle betroffenen Personen einverstanden sind.
-- (c) Im Allgemeinen ist die Bebauung des Grundstücks von dem Inhaber selbst zu entscheiden, solange diese wie in a) angegeben kommuniziert wurde.
+- (c) Im Allgemeinen ist die Bebauung des Grundstücks von dem Inhaber selbst zu entscheiden, solange diese wie in a) angegeben kommuniziert wurden.
 
 ## §6 Cheats und Modifikationen
 
@@ -69,9 +70,9 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 
 - (a) Im Allgemeinen sind alle Events erlaubt, solange sie sich an alle Regeln halten und alle betroffenen Personen damit einverstanden sind.
 - (b) Die Events können im Discord eingetragen werden.
-- (c) Roleplay ist erlaubt, solange es sich nicht negativ auf zwischenmenschliche Beziehungen, das reale Leben oder die Spielerfahrung anderer Spielerinnen und Spieler auswirkt und alle betroffenen Personen einverstanden sind. Dies gilt auch, wenn die Tätigkeit eigentlich laut Artikel 2) oder 3) verboten ist.
+- (c) Roleplay ist erlaubt, solange es sich nicht negativ auf zwischenmenschliche Beziehungen, das reale Leben oder die Spielerfahrung anderer Spielerinnen und Spieler auswirkt und alle betroffenen Personen einverstanden sind. Dies gilt auch, wenn die Tätigkeit eigentlich laut Artikel 2), 3) oder 5) verboten ist.
 - (d) Für spezielle Events dürfen Admins unter impliziter oder expliziter Zustimmung aller anderen Admins Befehle, Datenpakete, Plugins oder Ähnliches zur Inszenierung nutzen, solange jenes keinem Spieler/keiner Spielerin einen Vorteil gegenüber dem normalen Spielverlauf bringt.
-- (e) Jede/r Spieler/in darf ein eigenes Banner gestalten, welches dann wie eine digitale Unterschrift wirkt. Die Nutzung eines Banners eines anderen Spielers/einer anderen Spielerin ohne deren Zustimmung ist nicht erlaubt.
+- (e) Niemand darf zu Roleplay gezwungen werden und man darf bei Problem immer eine Klärung außerhalb von Roleplay fordern.
 
 ## §8 Sanktionen und Konsequenzen
 
