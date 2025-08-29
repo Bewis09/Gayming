@@ -38,9 +38,9 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 
 ## §5 Grundstücke und deren Bebauung
 
-- (a) Bevor man etwas baut, ist das im Discord anzukündigen und auch mit direkten Nachbarn abzusprechen. Dies sollte folgende Informationen beinhalten: Gamertag(s), Koordinaten, Bauwerk und Baustil/Farm.
+- (a) Bevor man etwas baut, ist dies im Discord anzukündigen und auch mit direkten Nachbarn abzusprechen. Dies sollte folgende Informationen beinhalten: Gamertag(s), Koordinaten, Bauwerk und Baustil/Farm.
 - (b) Falls eine andere Person ein sinnvoll begründetes Problem damit haben sollte, ist ein Kompromiss zu finden, mit dem alle betroffenen Personen einverstanden sind.
-- (c) Im Allgemeinen ist die Bebauung des Grundstücks von dem Inhaber selbst zu entscheiden, solange diese wie in a) angegeben kommuniziert wurden.
+- (c) Im Allgemeinen ist die Bebauung des Grundstücks von dem Inhaber selbst zu entscheiden, solange diese wie in a) angegeben kommuniziert wurde.
 
 ## §6 Cheats und Modifikationen
 
@@ -72,7 +72,7 @@ Auf dem Server wünschen wir uns ein friedliches Zusammenspiel zwischen den einz
 - (b) Die Events können im Discord eingetragen werden.
 - (c) Roleplay ist erlaubt, solange es sich nicht negativ auf zwischenmenschliche Beziehungen, das reale Leben oder die Spielerfahrung anderer Spielerinnen und Spieler auswirkt und alle betroffenen Personen einverstanden sind. Dies gilt auch, wenn die Tätigkeit eigentlich laut Artikel 2), 3) oder 5) verboten ist.
 - (d) Für spezielle Events dürfen Admins unter impliziter oder expliziter Zustimmung aller anderen Admins Befehle, Datenpakete, Plugins oder Ähnliches zur Inszenierung nutzen, solange jenes keinem Spieler/keiner Spielerin einen Vorteil gegenüber dem normalen Spielverlauf bringt.
-- (e) Niemand darf zu Roleplay gezwungen werden und man darf bei Problem immer eine Klärung außerhalb von Roleplay fordern.
+- (e) Niemand darf zu Roleplay gezwungen werden und man darf bei Problemen immer eine Klärung außerhalb des Roleplays fordern.
 
 ## §8 Sanktionen und Konsequenzen
 
